@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SafariBrowser(failed)">
+    <parameter name="browser" value="Safari"/>
+    <classes>
+      <class name="testNG.framework.CrossBrowserTesting">
+        <methods>
+          <include name="getTest"/>
+          <include name="setup"/>
+          <include name="getTearDown"/>
+        </methods>
+      </class> <!-- testNG.framework.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- SafariBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
